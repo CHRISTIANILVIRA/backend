@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Activación</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f9; padding: 20px; margin: 0;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: center; color: #333; margin-bottom: 20px;">
+            <img src="./imagenes/Logo Sumire.png" alt="Sumire Detalles" style="max-width: 150px; margin-bottom: 10px;">
+            <h2 style="margin: 0;">Activación de Cuenta</h2>
+        </div>
+        <div style="color: #555; line-height: 1.6;">
+            <p>Hola,</p>
+            <p>Gracias por registrarte en Sumire Detalles. Para activar tu cuenta, por favor ingresa el siguiente código de activación en el formulario de activación:</p>
+            <p style="text-align: center; font-size: 24px; color: #d63384; margin: 20px 0;">{{codigo_activacion}}</p>
+            <p>Puedes activar tu cuenta haciendo clic en el siguiente enlace:</p>
+            <p style="text-align: center; margin: 20px 0;">
+                <a href="https://www.ejemplo.com/activar-cuenta?code={{codigo_activacion}}" style="display: inline-block; padding: 10px 20px; background-color: #d63384; color: white; text-decoration: none; border-radius: 4px;">Activar Cuenta</a>
+            </p>
+            <p>Si no solicitaste este correo, puedes ignorarlo.</p>
+            <p>Gracias,</p>
+            <p>El equipo de Sumire Detalles</p>
+        </div>
+        <div style="color: #555; text-align: center; margin-top: 30px;">
+            <p>&copy; 2024 Sumire Detalles. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+<!-- <body style="font-family: Arial, sans-serif; background-color: #f4f4f9; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 300px;">
+        <h2 style="text-align: center; color: #333;">Activación de Cuenta</h2>
+        <form action="#" method="post">
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; color: #555; margin-bottom: 5px;">Correo Electrónico</label>
+                <input type="email" id="email" name="email" style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="activation-code" style="display: block; color: #555; margin-bottom: 5px;">Código de Activación</label>
+                <input type="text" id="activation-code" name="activation-code" style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">Activar Cuenta</button>
+        </form>
+    </div>
+</body> -->
+</html>
